@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #460080;
+    background-color: #760393;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -16,42 +16,15 @@ header {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #e8a9ff;
+    background-color: #c062d7;
     border-radius: 8px;
 }
 
-main {
-    flex-grow: 1;
-}
-
-/* General layout styles */
-.container {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
-}
-
-.container > div {
-    width: 48%; /* Adjust width to your preference */
-}
-
-/* Footer styles */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #460080;
+    background-color: #760393;
     color: white;
     width: 100%;
     bottom: 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 768px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .container > div {
-        width: 100%;
-    }
 }
