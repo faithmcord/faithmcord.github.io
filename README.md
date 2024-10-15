@@ -1,2 +1,2 @@
 # faithmcord.github.io
-This is my portfolio/resume website
+# This is my portfolio/resume website
