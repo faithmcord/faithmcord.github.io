@@ -13,11 +13,30 @@ header {
     text-align: center;
 }
 
+me {
+    margin: 20px;
+    padding: 20px;
+    border-color: black;
+    background-color: #ffffff;
+    border-radius: 14px;
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+}
+
+.float-child {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
 section {
     margin: 20px;
     padding: 20px;
     background-color: #deaeea;
-    border-radius: 8px;
+    border-radius: 14px;
 }
 
 footer {
