@@ -18,7 +18,16 @@ header {
     padding: 20px;
     border-color: black;
     background-color: #ffffff;
-    border-radius: 14px;
+    border-radius: 8px;
+}
+
+.links {
+    margin: 20px;
+    padding: 10px;
+    border-color: black;
+    background-color: #ffffff;
+    border-radius: 8px;
+    width: 30%;
 }
 
 .float-container {
@@ -36,7 +45,7 @@ section {
     margin: 20px;
     padding: 20px;
     background-color: #deaeea;
-    border-radius: 14px;
+    border-radius: 8px;
 }
 
 footer {
