@@ -21,6 +21,17 @@ section {
     border-radius: 8px;
 }
 
+/* General layout styles */
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.container > div {
+    width: 48%; /* Adjust width to your preference */
+}
+
 footer {
     text-align: center;
     padding: 10px;
