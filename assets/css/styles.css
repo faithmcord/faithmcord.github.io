@@ -18,18 +18,20 @@ button {
     float: right;
     transition-duration: 0.4s;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: #E6E1C5;
     width: 100px;
+    color: #395C6B;
 }
 
-.button:hover {
-    background-color: #04AA6D; /* Green */
-    color: white;
+button:hover {
+    border-color: #E6E1C5;
+    background-color: #D4CB92; /* Green */
+    color: #395C6B;
 }
 
 .logo {
     align-items: left;
-    max-width: 100px;
+    max-width: 200px;
 }
 
 .me {
