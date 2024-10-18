@@ -10,20 +10,19 @@ header {
     background-color: #760393;
     color: #fff;
     padding: 20px;
-    text-align: center;
+}
+
+.logo {
+    text-align: left;
+}
+
+.contact {
+    text-align: right;
 }
 
 .me {
     margin: 20px;
     padding: 20px;
-    border-color: black;
-    background-color: #ffffff;
-    border-radius: 8px;
-}
-
-.links {
-    margin: 20px;
-    padding: 10px;
     border-color: black;
     background-color: #ffffff;
     border-radius: 8px;
