@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #BCD3F2;
     color: #333;
 }
 
@@ -10,17 +10,16 @@ header {
     background-color: #395C6B;
     color: #fff;
     padding: 20px;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 button {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     float: right;
     transition-duration: 0.4s;
     border-radius: 8px;
     background-color: #E6E1C5;
-    width: 100px;
+    width: 150px;
     color: #395C6B;
+    align-items: center;
 }
 
 button:hover {
@@ -56,7 +55,7 @@ button:hover {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #deaeea;
+    background-color: #80A4ED;
     border-radius: 8px;
 }
 
