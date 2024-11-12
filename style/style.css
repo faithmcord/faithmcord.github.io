@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Yeseva+One&display=swap');
+
 /* Reset and global styles */
 * {
     margin: 0;
@@ -23,7 +25,6 @@ h2 {
     font-size: 1.8rem;
     color: #333;
     margin-bottom: 1rem;
-    border-bottom: 2px solid #007acc;
     padding-bottom: 0.5rem;
 }
 
@@ -80,6 +81,13 @@ nav li a:hover {
     font-size: 1.1rem;
     margin-top: 1rem;
     color: #ccc;
+}
+
+.arched-square {
+    width: 200px;
+    height: 200px;
+    border-radius: 200px 200px 0 0;
+    overflow: hidden;
 }
 
 /* Work Experience styling */
@@ -168,6 +176,11 @@ nav li a:hover {
 }
 
 #contact a:hover {
-    text-decoration: underline;
+    /*bold*/
 }
 
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
