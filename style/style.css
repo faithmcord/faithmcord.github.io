@@ -12,25 +12,6 @@ body {
     line-height: 1.6;
 }
 
-/* Header styling */
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 2rem;
-    text-align: center;
-}
-
-.header-content h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-}
-
-.header-content p.description {
-    font-size: 1.1rem;
-    margin-top: 1rem;
-    color: #ccc;
-}
-
 /* Main content styling */
 main {
     max-width: 800px;
@@ -50,7 +31,60 @@ section {
     margin-bottom: 2rem;
 }
 
+nav {
+    background-color: #395c6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #395c6b;
+    position: fixed;
+    top: 0;
+}
+  
+nav li {
+    float: left;
+}
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+  /* Change the link color to #111 (black) on hover */
+nav li a:hover {
+    color: #bdbdbd;
+}
+
+/* Home Page styling*/
+.home-page {
+    background-color: #395c6b;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.header-content p.description {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #ccc;
+}
+
 /* Work Experience styling */
+.work-experience {
+    background-color: #d09688;
+}
 .job h3 {
     font-size: 1.5rem;
     color: #007acc;
@@ -66,6 +100,10 @@ section {
 }
 
 /* Education styling */
+.education {
+    background-color: #edeced;
+}
+
 .education-entry h3 {
     font-size: 1.3rem;
     color: #333;
@@ -78,6 +116,9 @@ section {
 }
 
 /* Skills styling */
+.skills {
+    background-color: #d09688;
+}
 .skills-list {
     display: flex;
     flex-wrap: wrap;
@@ -87,7 +128,28 @@ section {
 }
 
 .skills-list li {
-    background-color: #007acc;
+    background-color: #d09688;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Actitivies & Honors styling */
+.honors {
+    background-color: #d09688;
+}
+.honors-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.honors-list li {
+    background-color: #395c6b;
     color: white;
     padding: 0.5rem 1rem;
     border-radius: 20px;
@@ -96,6 +158,9 @@ section {
 }
 
 /* Contact Section */
+.contact {
+    background-color: #edeced;
+}
 #contact a {
     color: #007acc;
     text-decoration: none;
@@ -105,11 +170,3 @@ section {
     text-decoration: underline;
 }
 
-/* Footer styling */
-footer {
-    text-align: center;
-    padding: 1rem;
-    background-color: #333;
-    color: white;
-    font-size: 0.9rem;
-}
