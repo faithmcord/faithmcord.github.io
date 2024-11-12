@@ -1,54 +1,115 @@
+/* Reset and global styles */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
 }
 
 body {
-    background-color: #f4f4f4;
     color: #333;
+    background-color: #f7f9fc;
     line-height: 1.6;
 }
 
+/* Header styling */
 header {
-    text-align: center;
+    background-color: #333;
+    color: #fff;
     padding: 2rem;
-    background-color: #e0e0e0;
+    text-align: center;
 }
 
-header h1 {
+.header-content h1 {
     font-size: 2.5rem;
-    color: #333;
+    margin-bottom: 0.5rem;
 }
 
-section {
-    margin: 2rem 10%;
-    padding: 1.5rem;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.header-content p.description {
+    font-size: 1.1rem;
+    margin-top: 1rem;
+    color: #ccc;
+}
+
+/* Main content styling */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
 }
 
 h2 {
+    font-size: 1.8rem;
+    color: #333;
     margin-bottom: 1rem;
-    color: #444;
+    border-bottom: 2px solid #007acc;
+    padding-bottom: 0.5rem;
 }
 
-.job, #education p, #skills ul, #contact p {
-    margin-bottom: 1rem;
+section {
+    margin-bottom: 2rem;
 }
 
-ul {
-    list-style-type: disc;
-    margin-left: 1.5rem;
+/* Work Experience styling */
+.job h3 {
+    font-size: 1.5rem;
+    color: #007acc;
 }
 
-a {
+.job p span {
+    font-weight: bold;
+}
+
+.job ul {
+    list-style-type: square;
+    padding-left: 1.5rem;
+}
+
+/* Education styling */
+.education-entry h3 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-bottom: 0.3rem;
+}
+
+.education-entry p span {
+    font-weight: bold;
+    color: #555;
+}
+
+/* Skills styling */
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 0;
+    list-style: none;
+}
+
+.skills-list li {
+    background-color: #007acc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+/* Contact Section */
+#contact a {
     color: #007acc;
     text-decoration: none;
 }
 
-a:hover {
+#contact a:hover {
     text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
 }
