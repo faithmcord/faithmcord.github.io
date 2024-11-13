@@ -22,10 +22,6 @@ h2 {
     padding-bottom: 0.5rem;
 }
 
-section {
-    margin-bottom: 2rem;
-}
-
 nav {
     background-color: #395c6b;
     width: 100%;
@@ -175,7 +171,6 @@ nav li a:hover {
 .column {
     float: left;
     width: 50%;
-    padding: 15px;
 }
 
 .row::after {
