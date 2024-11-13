@@ -60,20 +60,20 @@ nav li a:hover {
 }
 
 /* Home Page styling*/
-#home-page {
+.home-page {
     background-color: #395c6b;
     color: #fff;
     padding: 2rem;
     text-align: center;
 }
 
-#home-page h2 {
+.home-page h2 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-family: "Yeseva One", serif;
 }
 
-#home-page p.description {
+.home-page p.description {
     font-size: 1.1rem;
     margin-top: 1rem;
     color: #ccc;
@@ -87,7 +87,7 @@ nav li a:hover {
 }
 
 /* Work Experience styling */
-#work-experience {
+.work-experience {
     background-color: #d09688;
 }
 .job h3 {
@@ -105,7 +105,7 @@ nav li a:hover {
 }
 
 /* Education styling */
-#education {
+.education {
     background-color: #edeced;
 }
 
@@ -121,7 +121,7 @@ nav li a:hover {
 }
 
 /* Skills styling */
-#skills {
+.skills {
     background-color: #d09688;
 }
 .skills-list {
@@ -142,7 +142,7 @@ nav li a:hover {
 }
 
 /* Actitivies & Honors styling */
-#honors {
+.honors {
     background-color: #d09688;
 }
 
@@ -163,16 +163,16 @@ nav li a:hover {
 }
 
 /* Contact Section */
-#contact {
+.contact {
     background-color: #edeced;
 }
 
-#contact b {
+.contact b {
     color: black;
     text-decoration: none;
 }
 
-#contact b:hover {
+.contact b:hover {
     font-weight: bold;
 }
 
