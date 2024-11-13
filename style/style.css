@@ -18,7 +18,7 @@ main {
 }
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 5rem;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
 }
@@ -68,7 +68,6 @@ nav li a:hover {
 }
 
 .home-page h2 {
-    font-size: 2.5rem;
     margin-bottom: 0.5rem;
     font-family: "Yeseva One", serif;
 }
@@ -109,7 +108,7 @@ nav li a:hover {
     background-color: #edeced;
 }
 
-.education-entry h3 {
+.education-entry h2 {
     font-size: 1.3rem;
     color: white;
     margin-bottom: 0.3rem;
@@ -143,7 +142,7 @@ nav li a:hover {
 
 /* Actitivies & Honors styling */
 .honors {
-    background-color: #d09688;
+    background-color: #395c6b;
 }
 
 .honors-list {
