@@ -15,14 +15,12 @@ body {
 
 /* Main content styling */
 main {
-    max-width: 800px;
     margin: 2rem auto;
     padding: 1rem;
 }
 
 h2 {
     font-size: 1.8rem;
-    color: #333;
     margin-bottom: 1rem;
     padding-bottom: 0.5rem;
 }
@@ -64,7 +62,7 @@ nav li a:hover {
 }
 
 /* Home Page styling*/
-.home-page {
+#home-page {
     background-color: #395c6b;
     color: #fff;
     padding: 2rem;
@@ -91,7 +89,7 @@ nav li a:hover {
 }
 
 /* Work Experience styling */
-.work-experience {
+#work-experience {
     background-color: #d09688;
 }
 .job h3 {
@@ -109,7 +107,7 @@ nav li a:hover {
 }
 
 /* Education styling */
-.education {
+#education {
     background-color: #edeced;
 }
 
@@ -125,7 +123,7 @@ nav li a:hover {
 }
 
 /* Skills styling */
-.skills {
+#skills {
     background-color: #d09688;
 }
 .skills-list {
@@ -146,9 +144,10 @@ nav li a:hover {
 }
 
 /* Actitivies & Honors styling */
-.honors {
+#honors {
     background-color: #d09688;
 }
+
 .honors-list {
     display: flex;
     flex-wrap: wrap;
@@ -166,7 +165,7 @@ nav li a:hover {
 }
 
 /* Contact Section */
-.contact {
+#contact {
     background-color: #edeced;
 }
 
