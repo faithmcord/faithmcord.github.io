@@ -4,8 +4,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
+    font-family: "Montserrat", sans-serif;
 }
 
 body {
@@ -72,9 +71,10 @@ nav li a:hover {
     text-align: center;
 }
 
-.header-content h1 {
+.header-content h2 {
     font-size: 2.5rem;
     margin-bottom: 0.5rem;
+    font-family: "Yeseva One", serif;
 }
 
 .header-content p.description {
@@ -84,9 +84,9 @@ nav li a:hover {
 }
 
 .arched-square {
-    width: 200px;
-    height: 200px;
-    border-radius: 200px 200px 0 0;
+    width: 300px;
+    height: 300px;
+    border-radius: 300px 300px 0 0;
     overflow: hidden;
 }
 
@@ -96,7 +96,7 @@ nav li a:hover {
 }
 .job h3 {
     font-size: 1.5rem;
-    color: #007acc;
+    color: white;
 }
 
 .job p span {
@@ -115,13 +115,13 @@ nav li a:hover {
 
 .education-entry h3 {
     font-size: 1.3rem;
-    color: #333;
+    color: #white;
     margin-bottom: 0.3rem;
 }
 
 .education-entry p span {
     font-weight: bold;
-    color: #555;
+    color: white;
 }
 
 /* Skills styling */
@@ -161,7 +161,6 @@ nav li a:hover {
     background-color: #395c6b;
     color: white;
     padding: 0.5rem 1rem;
-    border-radius: 20px;
     font-weight: bold;
     font-size: 0.9rem;
 }
@@ -170,13 +169,14 @@ nav li a:hover {
 .contact {
     background-color: #edeced;
 }
-#contact a {
-    color: #007acc;
+
+#contact b {
+    color: black;
     text-decoration: none;
 }
 
-#contact a:hover {
-    /*bold*/
+#contact b:hover {
+    font-weight: bold;
 }
 
 .column {
