@@ -11,12 +11,6 @@ body {
     line-height: 1.6;
 }
 
-/* Main content styling */
-main {
-    margin: 2rem auto;
-    padding: 1rem;
-}
-
 h2 {
     font-size: 5rem;
     margin-bottom: 1rem;
@@ -35,7 +29,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 15px;
     overflow: hidden;
     background-color: #395c6b;
     position: fixed;
@@ -99,7 +93,7 @@ nav li a:hover {
 }
 
 .job ul {
-    list-style-type: square;
+    list-style-type: none;
     padding-left: 1.5rem;
 }
 
@@ -135,6 +129,7 @@ nav li a:hover {
     background-color: #d09688;
     color: white;
     padding: 0.5rem 1rem;
+    padding-left: 1.5rem;
     border-radius: 20px;
     font-weight: bold;
     font-size: 0.9rem;
@@ -150,6 +145,7 @@ nav li a:hover {
     flex-wrap: wrap;
     gap: 0.5rem;
     padding: 0;
+    padding-left: 1.5rem;
     list-style: none;
 }
 
