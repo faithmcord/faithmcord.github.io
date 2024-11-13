@@ -78,14 +78,21 @@ nav li a:hover {
 /* Work Experience styling */
 .work-experience {
     background-color: #d09688;
+    color: white;
 }
+
+.job {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
 .job h3 {
     font-size: 1.5rem;
     color: white;
 }
 
-.job p span {
-    font-weight: bold;
+.job p{
+    color: white;
 }
 
 .job ul {
