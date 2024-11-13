@@ -80,9 +80,9 @@ nav li a:hover {
 }
 
 .arched-square {
-    max-width: 400px;
+    max-width: 500px;
     max-height: 600px;
-    border-radius: 400px 400px 0 0;
+    border-radius: 500px 500px 0 0;
     overflow: hidden;
 }
 
