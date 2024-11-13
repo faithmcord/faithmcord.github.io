@@ -34,7 +34,7 @@ nav {
 nav ul {
     list-style-type: none;
     margin: 0;
-    padding: 15px;
+    padding: 5px;
     overflow: hidden;
     background-color: #395c6b;
     position: fixed;
@@ -64,11 +64,6 @@ nav li a:hover {
     color: #fff;
     padding: 2rem;
     text-align: center;
-}
-
-.home-page p .header {
-    margin-bottom: 0.5rem;
-    font-family: "Yeseva One", serif;
 }
 
 .home-page p.description {
