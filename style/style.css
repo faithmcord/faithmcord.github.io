@@ -109,18 +109,19 @@ nav li a:hover {
 
 .education-entry h2 {
     font-size: 1.3rem;
-    color: white;
+    color: black;
     margin-bottom: 0.3rem;
 }
 
 .education-entry p span {
     font-weight: bold;
-    color: white;
+    color: black;
 }
 
 /* Skills styling */
 .skills {
     background-color: #d09688;
+    color: white;
 }
 .skills-list {
     display: flex;
