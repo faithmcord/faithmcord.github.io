@@ -73,6 +73,8 @@ nav li a:hover {
     max-height: 600px;
     border-radius: 500px 500px 0 0;
     overflow: hidden;
+    align-items: center;
+    padding-top: 2rem;
 }
 
 /* Work Experience styling */
